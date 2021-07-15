@@ -93,6 +93,13 @@ export default App;
 | renderFrame | `() => React.ReactNode` | `undefined` |  |
 
 
+---
+## Credits
+
+
+- [@Nghi-NV](https://github.com/Nghi-NV)
+
+
 [version-badge]: https://img.shields.io/npm/v/react-native-qrcode-mask.svg?style=flat-square
 [package]: https://www.npmjs.com/package/react-native-qrcode-mask
 [license-badge]: https://img.shields.io/npm/l/react-native-qrcode-mask.svg?style=flat-square
@@ -101,3 +108,4 @@ export default App;
 [all-contributors]: #contributors
 [prs-welcome-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
 [prs-welcome]: http://makeapullrequest.com
+
