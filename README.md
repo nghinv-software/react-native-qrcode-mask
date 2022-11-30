@@ -32,13 +32,13 @@ npm install react-native-qrcode-mask
 ```js
 import React, { useState } from 'react';
 import { View, StyleSheet } from 'react-native';
-import Camera from 'react-native-camera';
+import RNCamera from 'react-native-camera';
 import QrCodeMask from 'react-native-qrcode-mask';
 
 function App() {
   return (
     <View style={styles.container}>
-      <Camera>
+      <RNCamera>
         <QrCodeMask
           // lineColor='green'
           lineDirection='horizontal'
@@ -47,7 +47,7 @@ function App() {
           topTitle='Bar Code Scanner'
           bottomTitle='Put the barcode into the box'
         />
-      </Camera>
+      </RNCamera>
     </View>
   );
 }
